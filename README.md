@@ -14,6 +14,10 @@ We're using Rails 7's default image processor library `vips`, which you need to 
 
     brew install libvips
 
+We're using FFmpeg for audio transcoding, which you need to install
+
+    brew install ffmpeg
+
 Copy the example `.env` file
 
     cp `.env.example .env`
